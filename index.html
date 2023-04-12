@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess King Piece</title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="gameboardrow1">
+        <div class="square brown"> </div>
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+    </div>
+
+    <div id="gameboardrow2">
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"> </div>
+    </div>
+
+    <div id="gameboardrow3">
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"> </div>
+        <div class="square beige"></div>
+    </div>
+
+    <div id="gameboardrow4">
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"> </div>
+    </div>
+
+    <div id="gameboardrow5">
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>
+        <div class="square beige"></div>
+    </div>
+
+    <div id="gameboardrow6">
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"> </div>
+    </div>
+
+    <div id="gameboardrow7">
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>
+        <div class="square beige"></div>
+    </div>
+
+    <div id="gameboardrow8">
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>  
+        <div class="square beige"></div>
+        <div class="square brown"></div>
+    </div>
+
+    <div id="whitepieces">
+        <img src="images/KingMedium.png" alt="dark king piece" id="wking" class="chess-piece resize" draggable="true"/>
+        <img src="images/WhiteQueen.png" alt="Light Queen Piece" id="wqueen" class="chess-piece2 resize" draggable="true"/> 
+        <img src="images/WhiteBishop.png" alt="WhiteQueen" id="wbishop" class="chess-piece3 resize" draggable="true"/> 
+        <img src="images/WhiteBishop.png" alt="WhiteQueen" id="wbishopb" class="chess-piece35 resize" draggable="true"/> 
+        <img src="images/WhiteKnight.png" alt="WhiteQueen" id="wknight" class="chess-piece4 resize" draggable="true"/> 
+        <img src="images/WhiteKnight.png" alt="WhiteQueen" id="wknightb" class="chess-piece45 resize" draggable="true"/> 
+        <img src="images/WhiteRook.png" alt="WhiteQueen" id="wrook" class="chess-piece5 resize" draggable="true"/> 
+        <img src="images/WhiteRook.png" alt="WhiteQueen" id="wrookb" class="chess-piece55 resize" draggable="true"/> 
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn" class="chess-piece6 resize" draggable="true"/> 
+  
+        <!-- Pawns -->
+
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn2" class="chess-piece7 resize" draggable="true"/> 
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn3" class="chess-piece8 resize" draggable="true"/> 
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn4" class="chess-piece9 resize" draggable="true"/> 
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn5" class="chess-piece10 resize" draggable="true"/> 
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn6" class="chess-piece11 resize" draggable="true"/> 
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn7" class="chess-piece12 resize" draggable="true"/> 
+        <img src="images/WhitePawn.png" alt="WhiteQueen" id="wpawn8" class="chess-piece13 resize" draggable="true"/> 
+
+     
+    </div>
+
+    <div id="blackpieces">
+        <img src="images/BlackKing.png" alt="King piece" id="bking" class="black-chess-piece resize" draggable="true"/>
+        <img src="images/BlackQueen.png" alt="WhiteQueen" id="bqueen" class="chess-piece resize" draggable="true"/> 
+        <img src="images/BlackBishop.png" alt="WhiteQueen" id="bbishop" class="chess-piece resize" draggable="true"/> 
+        <img src="images/BlackKnight.png" alt="WhiteQueen" id="bknight" class="chess-piece resize" draggable="true"/> 
+        <img src="images/BlackRook.png" alt="WhiteQueen" id="brook" class="chess-piece resize" draggable="true"/> 
+        <img src="images/BlackPawn.png" alt="WhiteQueen" id="bpawn" class="chess-piece resize" draggable="true"/> 
+    </div>
+
+    <p id="info"></p>
+
+<script src="main.js"></script>
+</body>
+</html>

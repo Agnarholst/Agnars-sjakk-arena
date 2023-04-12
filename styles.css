@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 155vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameboardrow1 {
+    display: flex;
+}
+
+#gameboardrow2 {
+    display: flex;
+}
+
+#gameboardrow3 {
+    display: flex;
+}
+
+#gameboardrow4 {
+    display: flex;
+}
+
+#gameboardrow5 {
+    display: flex;
+}
+
+#gameboardrow6 {
+    display: flex;
+}
+
+#gameboardrow7 {
+    display: flex;
+}
+
+#gameboardrow8 {
+    display: flex;
+}
+
+.square {
+    width: 90px;
+    height: 90px;
+}
+
+.beige {
+    background-color: rgb(240,217,181);
+}
+
+.brown {
+    background-color: rgb(181,136,98);
+}
+
+#info {
+    height: 30px;
+}
+
+.resize {
+    height: 90px;
+    width: 90px;
+}
